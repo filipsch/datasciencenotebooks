@@ -23,7 +23,7 @@ import querymeScreenshot from "./toolScreenshots/query-me.png";
 import querybookScreenshot from "./toolScreenshots/querybook.png";
 import huspreyScreenshot from "./toolScreenshots/husprey.png";
 import jupyterLabScreenshot from "./toolScreenshots/jupyterlab.png";
-import workspaceScreenshot from "./toolScreenshots/workspace.png";
+import datalabScreenshot from "./toolScreenshots/datalab.png";
 import hyperqueryScreenshot from "./toolScreenshots/hyperquery.png";
 import countScreenshot from "./toolScreenshots/countco.png";
 import { Fragment } from "react";
@@ -1224,13 +1224,13 @@ export const notebookTools = {
   }),
 
   workspace: createNotebookTool({
-    name: "DataCamp Workspace",
-    id: "workspace",
+    name: "DataLab",
+    id: "datalab",
     description:
-      "DataCamp Workspace is an AI-powered data notebook to help you get from data to insights, faster.",
-    lastUpdatedAt: "2022-08-24T00:00:00.000Z",
-    screenshot: workspaceScreenshot,
-    websiteUrl: "https://www.datacamp.com/workspace",
+      "An AI-powered data notebook to chat with your data and seamlessly switch to SQL, Python or R to collaborate with others, and share insights.",
+    lastUpdatedAt: "2024-04-23T00:00:00.000Z",
+    screenshot: datalabScreenshot,
+    websiteUrl: "https://www.datacamp.com/datalab",
     pageContent: () => (
       <Fragment>
         <P>
